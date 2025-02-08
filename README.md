@@ -1,37 +1,52 @@
-⏳ Pomodoro Timer
-A simple Pomodoro Timer built with Python & Tkinter to improve productivity. 🚀
+# ⏳ Pomodoro Timer
 
-📌 Features
-🔄 Start/Reset Timer – Easily manage Pomodoro cycles
-🍅 Work & Break Sessions – Automates 25-minute work and short/long breaks
-✅ Progress Tracking – Displays checkmarks for completed work sessions
-🎨 User-Friendly UI – Simple and efficient design
-🛠 Requirements
-Ensure Python 3.x is installed:
+A simple and effective **Pomodoro Timer** built with Python and Tkinter to enhance productivity using the Pomodoro technique.
 
-bash
-Copy
-Edit
-pip install tk
-⚙ Installation
-Clone and run the project:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/pomodoro-timer.git  
-cd pomodoro-timer  
-python pomodoro.py  
-📂 Project Structure
-bash
-Copy
-Edit
-pomodoro-timer/  
-│── pomodoro.py        # Main application script  
-│── tomato.png         # UI Image asset  
-└── README.md          # Documentation  
+## ✨ Features
+- Start, pause, and reset the timer
+- Visual representation with a tomato icon
+- Automatic work and break cycles
+- Checkmarks for completed work sessions
+- Simple and user-friendly interface
 
-🚀 Usage
-Click Start to begin a 25-minute Pomodoro session.
-A 5-minute break follows each session; a long break occurs every 4 sessions.
-Click Reset to restart the timer.
+---
+
+## 📋 Requirements
+- Python 3.x
+- Tkinter (built-in with Python)
+- Math module (built-in with Python)
+
+---
+
+## ⚡ Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/pomodoro-timer.git
+cd pomodoro-timer
+
+# Run the script
+python pomodoro.py
+```
+
+---
+
+## 📂 Project Structure
+```
+📦 pomodoro-timer
+├── 📜 pomodoro.py       # Main script
+├── 🖼️ tomato.png       # Tomato icon for UI
+├── 📜 README.md        # Project documentation
+```
+
+---
+
+## 🚀 Usage
+1. Click **Start** to begin the Pomodoro session (25 minutes of work).
+2. After a session, the timer switches to a **short break** (5 minutes).
+3. Every 4 work sessions, a **long break** (20 minutes) is triggered.
+4. Click **Reset** to restart the timer at any point.
+5. Work sessions are tracked with **checkmarks** ✔.
+
+
